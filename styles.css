@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Quicksand:wght@500&family=Roboto:wght@100&display=swap');
+*{
+   list-style: none; 
+   padding: 0;
+   margin: 0;
+}
+ul{
+    background:black;
+    color:white;
+    font-family: 'Josefin Sans', sans-serif;
+    position: fixed;
+    width:100%;
+}
+li{
+    float:right;
+    padding:10px 20px;
+}
+#logo{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2rem;
+    float:left;
+}
+#parent h1{
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:3rem;
+   
+
+}
+#traitDuHaut{
+    height:1px;
+    width:50%;
+    margin:20px auto 70px auto;
+    background:black;
+}
+#articlesContainer{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.articles{
+    width:200px;
+    padding:10px 20px;
+    text-align: center;
+    border: 0.5px solid black;
+    border-radius:5px;
+    font-family: 'Roboto', sans-serif;
+   
+}
+.articles img{
+    height:100px;
+    width: 100px;
+}
+.articles p{
+    margin:10px;
+}
+.articles button{
+    padding:5px 20px;
+    background:#279EFF;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor: pointer;
+}
+.articles button:hover{
+    background:#91ceff;
+}
+.displayItems{
+    top:50px;
+    right:10px;
+    opacity:1;
+    position:fixed;
+    height:500px;
+    width:400px;
+    background: white;
+}
+.displayItemsoff{
+    position:fixed;
+   left:-500px;
+}
+          /*items opened*/
+
+.itemsListOpened{
+    position:fixed;
+    opacity:0.9;
+    top:50px;
+    left:60%;
+    height:600px;
+    width:500px;
+    background: white;
+}
+.itemsListClosed{
+    right:-200px;
+}
+   /*item displayed*/
+.itemPresentationon{
+    position: fixed;
+    display: grid;
+    grid-template-columns:30% 70%;
+    font-family: 'Roboto', sans-serif;
+    border-bottom:0.5px solid black;
+    width:40%;
+}
+.itemPresentationon img{
+height:100px;
+width: 100px;
+margin:10px auto;
+}
+.itemPresentationon #itemsDetails{
+    margin:10px auto;
+}
+.itemPresentationon p,h3,input{
+    margin: 5px 0;
+    
+}
+#BuyAllBtn{
+    padding:10px 50px;
+    background:#279EFF;
+    color:white;
+    border:none;
+    cursor: pointer;
+}
+#BuyAllBtn:hover{
+    background:#91ceff;
+}
+
+
+
+
+
+
